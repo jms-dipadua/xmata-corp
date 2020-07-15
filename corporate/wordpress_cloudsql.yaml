@@ -38,29 +38,22 @@ spec:
           volumeMounts:
             - name: wordpress-persistent-storage
               mountPath: /var/www/html
-        # Change ${INSTANCE_CONNECTION_NAME} here to include your GCP
-        # project, the region of your Cloud SQL instance and the name
-        # of your Cloud SQL instance. The format is
-        # $PROJECT:$REGION:$INSTANCE
         - name: cloud-sql-proxy
           image: gcr.io/cloudsql-docker/gce-proxy:1.11
           command: ["/cloud_sql_proxy",
                     "-instances=tradingmachine:us-central1:xmata-corp-wp=tcp:3306",
-                    # If running on a VPC, the Cloud SQL proxy can connect via Private IP. See:
-                    # https://cloud.google.com/sql/docs/mysql/private-ip for more info.
-                    # "-ip_address_types=PRIVATE",
-                    "-credential_file=/var/secrets/google/key.json"]
+                    "-credential_file=/var/secrets/google/sql_proxy_key.json"]
           securityContext:
             runAsUser: 2  # non-root user
             allowPrivilegeEscalation: false
           volumeMounts:
-            - name: google-cloud-key
+            - name: cloudsql-instance-credentials
               mountPath: /var/secrets/google/
               readOnly: true
       volumes:
         - name: wordpress-persistent-storage
           persistentVolumeClaim:
             claimName: wordpress-volumeclaim
-        - name: google-cloud-key
+        - name: cloudsql-instance-credentials
           secret:
-            secretName: gcp-be-services-key
+            secretName: gcp-sql-proxy-key
