@@ -14,7 +14,6 @@ spec:
       labels:
         app: wordpress
     spec:
-      serviceAccountName: be-services
       containers:
         - image: wordpress
           name: wordpress
@@ -38,11 +37,12 @@ spec:
           volumeMounts:
             - name: wordpress-persistent-storage
               mountPath: /var/www/html
-        - name: cloud-sql-proxy
+        - name: cloudsql-proxy
           image: gcr.io/cloudsql-docker/gce-proxy:1.11
-          command: ["/cloud_sql_proxy",
-                    "-instances=tradingmachine:us-central1:xmata-corp-wp=tcp:3306",
-                    "-credential_file=/var/secrets/google/sql_proxy_key.json"]
+          command:
+             - "/cloud_sql_proxy"
+             - "-instances=tradingmachine:us-central1:xmata-corp-wp=tcp:3306"
+             - "-credential_file=/var/secrets/google/sql_proxy_key.json"
           securityContext:
             runAsUser: 2  # non-root user
             allowPrivilegeEscalation: false
