@@ -44,7 +44,7 @@ spec:
         - name: backendservices
           image: gcr.io/cloudsql-docker/gce-proxy:1.11
           command: ["/cloud_sql_proxy",
-                    "-instances=${tradingmachine:us-central1:xmata-corp-wp}=tcp:3306",
+                    "-instances=tradingmachine:us-central1:xmata-corp-wp=tcp:3306",
                     # If running on a VPC, the Cloud SQL proxy can connect via Private IP. See:
                     # https://cloud.google.com/sql/docs/mysql/private-ip for more info.
                     # "-ip_address_types=PRIVATE",
