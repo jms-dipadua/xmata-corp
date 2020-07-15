@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: wordpress
   labels:
-    app: wordpress
+    app: xmata-wordpress
 spec:
   replicas: 1
   selector:
@@ -53,7 +53,7 @@ spec:
             runAsUser: 2  # non-root user
             allowPrivilegeEscalation: false
           volumeMounts:
-            - name: gcp-be-services-key
+            - name: google-cloud-key
               mountPath: /var/secrets/google
               readOnly: true
       volumes:
