@@ -54,7 +54,7 @@ spec:
             allowPrivilegeEscalation: false
           volumeMounts:
             - name: google-cloud-key
-              mountPath: /var/secrets/google
+              mountPath: /var/secrets/google/
               readOnly: true
       volumes:
         - name: wordpress-persistent-storage
