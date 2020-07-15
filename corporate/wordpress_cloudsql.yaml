@@ -14,6 +14,7 @@ spec:
       labels:
         app: wordpress
     spec:
+      serviceAccountName: be-services
       containers:
         - image: wordpress
           name: wordpress
@@ -41,7 +42,7 @@ spec:
         # project, the region of your Cloud SQL instance and the name
         # of your Cloud SQL instance. The format is
         # $PROJECT:$REGION:$INSTANCE
-        - name: backendservices
+        - name: cloud-sql-proxy
           image: gcr.io/cloudsql-docker/gce-proxy:1.11
           command: ["/cloud_sql_proxy",
                     "-instances=tradingmachine:us-central1:xmata-corp-wp=tcp:3306",
