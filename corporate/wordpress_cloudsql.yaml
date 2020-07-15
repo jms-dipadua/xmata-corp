@@ -19,7 +19,7 @@ spec:
           name: wordpress
           env:
           - name: WORDPRESS_DB_HOST
-            value: 34.68.133.59:3306
+            value: 34.68.133.59
           # These secrets are required to start the pod.
           - name: WORDPRESS_DB_USER
             valueFrom:
@@ -41,7 +41,7 @@ spec:
         # project, the region of your Cloud SQL instance and the name
         # of your Cloud SQL instance. The format is
         # $PROJECT:$REGION:$INSTANCE
-        - name: cloudsql-proxy
+        - name: backendservices
           image: gcr.io/cloudsql-docker/gce-proxy:1.11
           command: ["/cloud_sql_proxy",
                     "-instances=${tradingmachine:us-central1:xmata-corp-wp}=tcp:3306",
