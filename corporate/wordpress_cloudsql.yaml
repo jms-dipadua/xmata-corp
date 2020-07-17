@@ -20,7 +20,6 @@ spec:
           env:
           - name: WORDPRESS_DB_HOST
             value: 127.0.0.1:3306
-          # 34.68.133.59 ???
           - name: WORDPRESS_DB_NAME
             value: wordpress
           # These secrets are required to start the pod.
