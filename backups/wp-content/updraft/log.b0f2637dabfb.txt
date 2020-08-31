@@ -1,0 +1,103 @@
+0000.000 (0) Opened log file at time: Sat, 29 Aug 2020 18:07:55 +0000 on http://35.225.229.87
+0000.010 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.4.9 (apache2handler, Linux wordpress-79545ccc98-79c47 4.14.138+ #1 SMP Tue Sep 3 02:58:08 PDT 2019 x86_64) MySQL: 5.7.25-google-log WPLANG: en_US Server: Apache/2.4.38 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.7M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.018 (0) Free space on disk containing Updraft's temporary directory: 9826.9 MB
+0000.027 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 0 (schedule: manual)
+0000.036 (0) Semaphore (f, wp_options) being initialised
+0000.061 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0000.082 (0) Set semaphore last lock (f) time to 2020-08-29 18:07:55
+0000.088 (0) Semaphore lock (f) complete
+0000.115 (0) Backup run: resumption=0, nonce=b0f2637dabfb, file_nonce=b0f2637dabfb begun at=1598724475 (0s ago), job type=backup
+0000.130 (0) Scheduling a resumption (1) after 300 seconds (1598724775) in case this run gets aborted
+0000.170 (0) Checking if we have a zip executable available
+0000.187 (0) Creation of backups of directories: beginning
+0000.211 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.757 (0) Total entities for the zip file: 467 directories, 2446 files (0 skipped as non-modified), 54.4 MB
+0000.784 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.801 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.816 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.837 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.853 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.862 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.9 MB, 2446 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.801 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 600 files added (on-disk size: 5068.7 KB)
+0002.815 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 700 files added (on-disk size: 5068.7 KB)
+0002.829 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 800 files added (on-disk size: 5068.7 KB)
+0002.842 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 900 files added (on-disk size: 5068.7 KB)
+0002.856 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 1000 files added (on-disk size: 5068.7 KB)
+0002.865 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.5 MB, 2446 files batched, 501 (1002) added so far); re-opening (prior size: 5068.7 KB)
+0003.096 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 1100 files added (on-disk size: 5770.5 KB)
+0003.110 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 1200 files added (on-disk size: 5770.5 KB)
+0003.123 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 1300 files added (on-disk size: 5770.5 KB)
+0003.135 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 1400 files added (on-disk size: 5770.5 KB)
+0003.149 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 1500 files added (on-disk size: 5770.5 KB)
+0003.157 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.1 MB, 2446 files batched, 501 (1503) added so far); re-opening (prior size: 5770.5 KB)
+0005.236 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 1600 files added (on-disk size: 9481.4 KB)
+0005.249 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 1700 files added (on-disk size: 9481.4 KB)
+0005.260 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 1800 files added (on-disk size: 9481.4 KB)
+0005.273 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 1900 files added (on-disk size: 9481.4 KB)
+0005.285 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 2000 files added (on-disk size: 9481.4 KB)
+0005.294 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (13.3 MB, 2446 files batched, 501 (2004) added so far); re-opening (prior size: 9481.4 KB)
+0007.738 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 2100 files added (on-disk size: 13041.4 KB)
+0007.757 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 2200 files added (on-disk size: 13041.4 KB)
+0007.772 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 2300 files added (on-disk size: 13041.4 KB)
+0007.786 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip.tmp: 2400 files added (on-disk size: 13041.4 KB)
+0009.011 (0) Created plugins zip (0) - 14723.4 KB in 8.8 s (1674.8 KB/s) (sha1: 14dc9519a3ed1d8b955e516c39f110dc70304440, sha256: 88185968f4d2912dd64e65eb68a6950f7820804aee3d20380962e58b0474d2d3)
+0009.029 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.137 (0) Total entities for the zip file: 50 directories, 211 files (0 skipped as non-modified), 4 MB
+0009.151 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.165 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.066 (0) Created themes zip (0) - 2204.9 KB in 1 s (2142.7 KB/s) (sha1: 79633406889dc9ed26201797a4c8f8a31662cf94, sha256: fd87aa08f02a684b63e5eb16f96950049f7cd42b04fb799e2cdf4f5d0d3e4e26)
+0010.083 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0010.091 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0010.098 (0) finding files: advgb: adding to list (1)
+0010.107 (0) finding files: uag-plugin: adding to list (2)
+0010.115 (0) finding files: 2020: adding to list (3)
+0010.123 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0010.197 (0) Total entities for the zip file: 5 directories, 241 files (0 skipped as non-modified), 25.3 MB
+0010.212 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.224 (0) Zip: backup_2020-08-29-1807_xMata_b0f2637dabfb-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.234 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 241 files batched, 231 (231) added so far); re-opening (prior size: 0 KB)
+0013.739 (0) A useful amount of data was added after this amount of zip processing: 4.4 s (normalised: 4.4 s, rate: 5773.6 KB/s)
+0013.755 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.4416060447693, normalised_time=4.4339608181389, max_time=13.747032880783, data points known=1, old_max_bytes=26214400, new_max_bytes=48765007)
+0014.390 (0) Created uploads zip (0) - 25642.2 KB in 4.3 s (6021.7 KB/s) (sha1: fa4ef83650172c13ba95bca2e63d2e71ddafaa7e, sha256: a09c12fc31c0f12303f5aa42b56fc4f8e658ca86a532c4c13e2661c855487082)
+0014.405 (0) Beginning backup of other directories found in the content directory (index: 0)
+0014.412 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0014.419 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0014.426 (0) finding files: index.php: adding to list (1)
+0014.433 (0) finding files: themes: skipping: this is the themes directory
+0014.440 (0) finding files: plugins: skipping: this is the plugins directory
+0014.446 (0) finding files: upgrade: skipping: excluded by options
+0014.453 (0) finding files: updraft: skipping: this is the updraft directory
+0014.459 (0) finding files: uploads: skipping: this is the uploads directory
+0014.475 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0014.509 (0) Created others zip (0) - 0.1 KB in 0 s (3.4 KB/s) (sha1: 601eb883dd86ebb4afd8f192b050612d52f76d71, sha256: dde572db68035dde4bd90ae80f89fc404a0ccaf594a3b712e379ce83210579aa)
+0014.539 (0) Saving backup status to database (elements: 8)
+0014.554 (0) No database backup (wp) - not part of this run
+0014.565 (0) backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0014.571 (0) backup_2020-08-29-1807_xMata_b0f2637dabfb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0014.578 (0) backup_2020-08-29-1807_xMata_b0f2637dabfb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0014.584 (0) backup_2020-08-29-1807_xMata_b0f2637dabfb-others.zip: others: This file has not yet been successfully uploaded: will queue
+0014.590 (0) Saving backup history. Total backup size: 41.6 MB
+0014.607 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0014.628 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0014.635 (0) No remote despatch: user chose no remote backup service
+0014.643 (0) Recording as successfully uploaded: backup_2020-08-29-1807_xMata_b0f2637dabfb-plugins.zip
+0014.658 (0) Recording as successfully uploaded: backup_2020-08-29-1807_xMata_b0f2637dabfb-themes.zip
+0014.673 (0) Recording as successfully uploaded: backup_2020-08-29-1807_xMata_b0f2637dabfb-uploads.zip
+0014.688 (0) Recording as successfully uploaded: backup_2020-08-29-1807_xMata_b0f2637dabfb-others.zip
+0014.711 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0014.720 (0) Number of backup sets in history: 1; groups (db): 1
+0014.727 (0) Examining (for databases) backup set with group_id=0, nonce=b0f2637dabfb, datestamp=1598724475 (Aug 29 2020 18:07:55)
+0014.735 (0) Number of backup sets in history: 1; groups (files): 1
+0014.742 (0) Examining (for files) backup set with nonce=b0f2637dabfb, datestamp=1598724475 (Aug 29 2020 18:07:55)
+0014.742 (0) This backup set is the backup set just made, so will not be deleted.
+0014.749 (0) This backup set is the backup set just made, so will not be deleted.
+0014.749 (0) This backup set is the backup set just made, so will not be deleted.
+0014.749 (0) This backup set is the backup set just made, so will not be deleted.
+0014.749 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0014.757 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0014.774 (0) Resume backup (b0f2637dabfb, 0): finish run
+0014.794 (0) Decremented the semaphore (f) by 1
+0014.808 (0) Semaphore (f) unlocked
+0014.814 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0014.836 (0) No email will/can be sent - the user has not configured an email address.
+0014.845 (0) The backup apparently succeeded and is now complete

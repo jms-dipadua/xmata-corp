@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: wordpress
-  name: wordpress
+    app: corp-wordpress
+  name: corp-wordpress
 spec:
   type: LoadBalancer
   ports:
@@ -11,4 +11,4 @@ spec:
       targetPort: 80
       protocol: TCP
   selector:
-    app: wordpress
+    app: corp-wordpress

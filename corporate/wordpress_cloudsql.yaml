@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: wordpress
+  name: corp-wordpress
   labels:
-    app: wordpress
+    app: corp-wordpress
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: wordpress
+      app: corp-wordpress
   template:
     metadata:
       labels:
-        app: wordpress
+        app: corp-wordpress
     spec:
       containers:
         - image: wordpress

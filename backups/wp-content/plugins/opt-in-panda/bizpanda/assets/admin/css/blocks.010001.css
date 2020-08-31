@@ -1,0 +1,61 @@
+.onp-locker .onp-config-wrap {
+    background-color: rgba(139,139,150,0.1);
+    padding: 10px 10px 1px 10px;
+}
+
+.onp-locker .onp-config-wrap > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.onp-locker .onp-config-wrap label {
+    margin-right: 5px;
+}
+
+.onp-locker .onp-preview-wrap {
+    position: relative;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+.onp-locker .block-editor-default-block-appender textarea.block-editor-default-block-appender__content {
+    padding-left: 0px;
+    margin-top: 32px;
+}
+
+.onp-locker .onp-top-bracket,
+.onp-locker .onp-bottom-bracket {
+    border: 4px solid rgba(139,139,150,0.1);
+
+    height: 30px;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.onp-locker .onp-top-bracket {
+    border-bottom: 0px;
+    bottom: auto;
+}
+
+.onp-locker .onp-bottom-bracket {
+    border-top: 0px;
+    top: auto;
+}
+
+.onp-locker .onp-locker-select-wrap select {
+    width: auto;
+}
+.onp-locker .onp-locker-select-wrap > div {
+    margin-bottom: 0px;
+}
+
+.onp-locker .onp-button {
+    margin-left: 5px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}

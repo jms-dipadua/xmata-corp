@@ -1,0 +1,10 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: corp-wp
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: "corp-wp-ip"
+spec:
+  backend:
+    serviceName: corp-wordpress
+    servicePort: 80
